@@ -402,6 +402,11 @@ const TabsVerticalTabs = lazy(() => import('src/pages/iteawd/finalsLabs/ls7/navi
 const TabsNavTabs = lazy(() => import('src/pages/iteawd/finalsLabs/ls7/navigation/tabs/navTabs'));
 const TabsIconTabs = lazy(() => import('src/pages/iteawd/finalsLabs/ls7/navigation/tabs/iconTabs'));
 const TabsIconPosition = lazy(() => import('src/pages/iteawd/finalsLabs/ls7/navigation/tabs/iconPosition'));
+
+// Q345 CUSTOM PAGES
+const Scenario1 = lazy(() => import('src/pages/iteawd/finalsLabs/q345/scenario1'));
+const Scenario2 = lazy(() => import('src/pages/iteawd/finalsLabs/q345/scenario2'));
+const Scenario3 = lazy(() => import('src/pages/iteawd/finalsLabs/q345/scenario3'));
 // ----------------------------------------------------------------------
 
 const layoutContent = (
@@ -782,6 +787,16 @@ export const dashboardRoutes = [
           { path: 'navigation/tabs/navTabs', element: <TabsNavTabs /> },
           { path: 'navigation/tabs/iconTabs', element: <TabsIconTabs /> },
           { path: 'navigation/tabs/iconPosition', element: <TabsIconPosition /> },
+        ],
+      },
+
+      {
+        path: 'iteawd-finalsLabs-q345',
+        children: [
+          // ---- Scenario 1 2 3 ---- 
+          { path: 'scenario1', element: <Scenario1 /> },
+          { path: 'scenario2', element: <Scenario2 /> },
+          { path: 'scenario3', element: <Scenario3 /> },
         ],
       },
 

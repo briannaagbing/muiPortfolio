@@ -606,6 +606,15 @@ export const paths = {
       },
     },
 
+
+    q345: {
+      root: `${ROOTS.DASHBOARD}/iteawd-finalsLabs-q345`,
+      
+      scenario1: `${ROOTS.DASHBOARD}/iteawd-finalsLabs-q345/scenario1`,
+      scenario2: `${ROOTS.DASHBOARD}/iteawd-finalsLabs-q345/scenario2`,
+      scenario3: `${ROOTS.DASHBOARD}/iteawd-finalsLabs-q345/scenario3`,
+    },
+
     mail: `${ROOTS.DASHBOARD}/mail`,
     chat: `${ROOTS.DASHBOARD}/chat`,
     blank: `${ROOTS.DASHBOARD}/blank`,
