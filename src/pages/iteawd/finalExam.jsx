@@ -56,7 +56,6 @@ import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import StarIcon from '@mui/icons-material/Star';
 
-// Import images
 import bagChanel from './assets/bags/bagChanel.jpg';
 import bagDior from './assets/bags/bagDior.jpg';
 import bagHermes from './assets/bags/bagHermes.jpg';
@@ -78,7 +77,6 @@ import watchCasio from './assets/watches/watchCasio.jpg';
 import watchRolex from './assets/watches/watchRolex.jpg';
 import watchTissot from './assets/watches/watchTissot.jpg';
 
-// Styled Components
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
     background: '#ffffffff',
     boxShadow: 'none',
@@ -182,7 +180,6 @@ const FeatureChip = styled(Chip)(({ theme }) => ({
     },
 }));
 
-// Mock Product Data
 const productData = [
     {
         id: 1,
